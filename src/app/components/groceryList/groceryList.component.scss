@@ -4,7 +4,7 @@
   display: flex;
   align-items: flex-start; 
   justify-content: center;
-  overflow: auto;
+  overflow: auto; 
 }
 
 .container {
@@ -23,11 +23,11 @@
     height: 100px;
 }
 
-  .invisible{
-        background: transparent;
-        border: none;
-        font-size:0;
-        position: absolute;
+.invisible{
+      background: transparent;
+      border: none;
+      font-size:0;
+      position: absolute;
   }
 
   .custom-icon {
@@ -84,11 +84,6 @@
   margin-right: 10px;
 }
    
-
-   
-
-
-/* Add custom styles for the input box */
 input#box1 {
   padding: 10px;
   border: 1px solid #ccc;
